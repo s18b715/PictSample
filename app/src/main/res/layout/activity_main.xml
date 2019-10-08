@@ -5,12 +5,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<jp.ac.shohoku.s18b715.PictSample.CustomView
-    android:id="@+id/CustomView"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    tools:ignore="MissingConstraints"
-    tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="0dp" />
+    <jp.ac.shohoku.s18b715.PictSample.CustomView
+        android:id="@+id/CustomView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
